@@ -100,7 +100,6 @@ ul {
 .header-link {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 .contacts-items:hover,
 .contacts-items:focus {
@@ -182,22 +181,18 @@ ul {
   border-radius: 4px;
   width: 100%;
   height: 120px;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 30px;
 }
 
 .skills-icon-bg svg {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-.list-item-icon {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+.list-item-icon {
   width: 70px;
   height: 70px;
 }
@@ -502,7 +497,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   color: #ffffff;
 }
 .join-list {
