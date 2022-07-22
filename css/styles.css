@@ -187,11 +187,6 @@ ul {
   margin-bottom: 30px;
 }
 
-.skills-icon-bg svg {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .list-item-icon {
   width: 70px;
   height: 70px;
